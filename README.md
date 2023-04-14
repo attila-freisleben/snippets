@@ -2,7 +2,7 @@
 Some random code snippets
 
 PHP
-PYTHON
+Python
 JS
 
 SQL
