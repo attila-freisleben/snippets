@@ -1,9 +1,10 @@
  /*
- Checking if condition is pathological maternity.
+ Collecting cases which classify as pathological maternity.
  Part of DRG classification.
  Oracle 12c, needed to hint extensively as optimizer was unable to cope with it reliably.
  */
 
+insert into tmp_fek_besor
 SELECT /*+ dynamic_sampling(tfd 10)   index(tfd i_fdt_imitbtb) index(hdcs i_hdcs1) index(hd i_hdcsb) */
        DISTINCT
        tfd.idoszak,
