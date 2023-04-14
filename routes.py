@@ -1,4 +1,7 @@
 """
+Helper functions for calculating CO2 emissions on highways project
+Part of a FastApi project
+Fetches data from different sources (TomTom, GCP, Openweathermap).
 """
 
 import requests
