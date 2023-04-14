@@ -1,9 +1,13 @@
 # snippets
 Some random code snippets
 
-PHP
-Python
+PHP: Part of REST API to generate realistic healthcare data in FHIR format
+
+Python: Part of REST API to calculate CO2 emissions on highways
+
 JS
 
-SQL
-PL/SQL
+SQL: Part of DRG classification, SQL to collect conditions classify as pathological maternity
+
+
+PL/SQL:
