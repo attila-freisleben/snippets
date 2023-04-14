@@ -1,7 +1,11 @@
 <?php
 
 /*
-returns a LOINC code with random generated valid values in FHIR format
+REST endpoint to generate a valid value for a LOINC code: https://loinc.org/
+
+Helper for realistic data generation in FHIR format: http://fhir.org/
+
+Returns a LOINC code with random generated valid values in FHIR format
 When id is set then for specific id, 
 when random & class is set then a random code from specific class 
 */
